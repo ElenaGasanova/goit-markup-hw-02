@@ -13,7 +13,7 @@ body {
     font-size: 18px;
     font-weight: 700;
     line-height: 1.17; 
-    letter-spacing: 0.54px;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -24,31 +24,31 @@ body {
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
-    line-height: 1.1666;
-    letter-spacing: 0.54px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
 }
 
-.manu-nav {
+.manu {
     list-style-type: none;
 }
 
-.manu-nav .link-nav  { 
-    color: #2e2f42;
-    font-size: 16px;
+.manu .link-nav  { 
     font-weight: 500;
+    font-size: 16px;
     line-height: 1.5;
-    letter-spacing: 0.32px;  
+    letter-spacing: 0.02em; 
+    color: #2e2f42;
     text-decoration: none;
 }
 
- .manu-nav .link-nav:hover {
+ .manu .link-nav:hover {
     color: #404bbf;
     text-decoration: none;
 }
 
- .manu-nav .link-nav:active {
+ .manu .link-nav:focus {
     color: #404bbf;
     text-decoration: underline;
 }
