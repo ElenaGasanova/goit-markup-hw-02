@@ -34,7 +34,7 @@ body {
     list-style-type: none;
 }
 
-.manu .link-nav  { 
+.manu .link  { 
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -43,12 +43,12 @@ body {
     text-decoration: none;
 }
 
- .manu .link-nav:hover {
+ .manu .link:hover {
     color: #404bbf;
     text-decoration: none;
 }
 
- .manu .link-nav:focus {
+ .manu .link:focus {
     color: #404bbf;
     text-decoration: underline;
 }
