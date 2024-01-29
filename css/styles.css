@@ -57,43 +57,23 @@ body {
     font-style: normal;
 }
 
- .address .social-text {
+ .address .text {
     list-style-type: none;  
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
  }
 
- .address .social-text .text-mailto {
+ .address .text .address {
     color: #434455;
     text-decoration: none;
 }
 
- .address .social-text .text-mailto:hover { 
+ .address .text .address:hover { 
     color: #404bbf; 
  }
 
- .address .social-text .text-mailto:focus { 
-    color: #404bbf; 
- }
-
- .address .social-text .text-tel {
-    list-style-type: none;  
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.02em;
- }
-
- .address .social-text .text-tel {
-    color: #434455;
-    text-decoration: none;
-}
-
- .address .social-text .text-tel:hover { 
-    color: #404bbf; 
- }
-
- .address .social-text .text-tel:focus { 
+ .address .text .address:focus { 
     color: #404bbf; 
  }
 
